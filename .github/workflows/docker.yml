@@ -44,5 +44,5 @@ jobs:
           push: true
           build-args: VERSION=${{ env.tag }}
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/yesplaymusic:latest  #修改名称
-            ${{ secrets.DOCKER_USERNAME }}/yesplaymusic:${{ env.tag }}  #修改名称
+            ${{ secrets.DOCKER_USERNAME }}/yesplaymusic:latest
+            ${{ secrets.DOCKER_USERNAME }}/yesplaymusic:${{ env.tag }}
