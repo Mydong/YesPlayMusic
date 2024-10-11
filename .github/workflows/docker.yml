@@ -6,8 +6,8 @@ on:
     branches:
       - 'master'
 env:
-  APP_NAME: YesPlayMusic #修改为自己Docker hub的项目名
-  DOCKERHUB_REPO: dockercommo/YesPlayMusic  #修改为自己Docker hub的项目名
+  APP_NAME: yesplaymusic #修改为自己Docker hub的项目名
+  DOCKERHUB_REPO: dockercommo/yesplaymusic  #修改为自己Docker hub的项目名
 
 jobs:
   main:
